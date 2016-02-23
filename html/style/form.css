@@ -1,0 +1,34 @@
+
+#subscription-section{
+	width: 400px;
+	margin: 30px auto;
+}
+.form-title{
+	text-align: center;
+	font-size: 32px;
+}
+.input-block{
+	width: 400px;
+	padding: 5px;
+}
+.input-title{
+	font-size: 21px;
+	width: 100px;
+	display: inline-block;
+}
+.input-block textarea{
+	font-family: arial;
+	font-weight: bold;
+	margin-left: -3px;
+	border-radius: 15px;
+	padding: 8px; 
+}
+
+.form-btn{
+	margin: 10px;
+	text-align: right;
+
+}
+.btn:hover{
+	color:#fff;
+}
