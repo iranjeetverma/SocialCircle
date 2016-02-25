@@ -2,16 +2,35 @@
 <head>
 	<script type="text/javascript" src="javascript\jquery.js"></script>
 	<script type="text/javascript" src="javascript\overlay.js"></script>
+	<script type="text/javascript" src="javascript\profile_nav.js"></script>
+	<script type="text/javascript" src="javascript\chat_slid.js"></script>
 	<title>AccountPage</title>
 	<link rel="stylesheet" type="text/css" href="style\component.css">
-	<link rel="stylesheet" type="text/css" href="style\account_page_header.css">
+	<link rel="stylesheet" type="text/css" href="style\chat.css">
 	<link rel="stylesheet" type="text/css" href="style\user-info.css">
 	<link rel="stylesheet" type="text/css" href="style\imgoverly.css">
 	<link rel="stylesheet" type="text/css" href="style\user_avtivity.css">
+	<link rel="stylesheet" type="text/css" href="style\account_page_header.css">
+	<link rel="stylesheet" type="text/css" href="style\profile_nav.css">
+	<link rel="stylesheet" type="text/css" href="style\split.css">
 </head>
 <body>
 	<div id = "account_page_header">
-		<div = "web_logo"></div>
+		<div id= "web_logo"></div>
+		<div id = "profile_nav">
+			<img src="style\images\profile_pic.png">
+			<span class="caret"></span>
+			<div id = "nav_toggle">
+				<ul>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Settings</a></li>
+					<li><a href="#">Log Out</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id= "user_chat">
+			<img src="style\images\chat.png">
+		</div>
 	</div>
 	<div id ="user_info">
 		<div id = "main_pic">
@@ -41,6 +60,62 @@
 				</li>
 				<li class="activity_li">
 					<a href="#" class = "a">Friends</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id = "side_chat_bar">
+		<div class="chat_search">
+			<input type="text" placeholder="search">
+		</div>
+		<div class ="search_nav">
+			<ul class="search_ul">
+				<a href="#"><li class="search-li">All</li></a>
+				<a href="#"><li class="search-li">Online</li></a>
+				<a href="#"><li class="search-li">Offline</li></a>
+			</ul>
+		</div>
+		<div id="current_users">
+			<ul id = "online_ul">
+				<li class ="online_li">
+					<div class= "online_img"><img src="style\images\profile_pic.png"></div>
+					<div><h3 class="name">Name</h3></div>
+					<div class="status"></div>
+				</li>
+				<li class ="online_li">
+					<div class= "online_img"><img src="style\images\profile_pic.png"></div>
+					<div><h3 class="name">Name</h3></div>
+					<div class="status"></div>
+				</li>
+				<li class ="online_li">
+					<div class= "online_img"><img src="style\images\profile_pic.png"></div>
+					<div ><h3 class="name">Name</h3></div>
+					<div class="status"></div>
+				</li>
+				<li class ="online_li">
+					<div class= "online_img"><img src="style\images\profile_pic.png"></div>
+					<div><h3 class="name">Name</h3></div>
+					<div class="status"></div>
+				</li>
+				<li class ="online_li">
+					<div class= "online_img"><img src="style\images\profile_pic.png"></div>
+					<div><h3 class="name">Name</h3></div>
+					<div class="status"></div>
+				</li>
+				<li class ="online_li">
+					<div class= "online_img"><img src="style\images\profile_pic.png"></div>
+					<div><h3 class="name">Name</h3></div>
+					<div class="status"></div>
+				</li>
+				<li class ="online_li">
+					<div class= "online_img"><img src="style\images\profile_pic.png"></div>
+					<div><h3 class="name">Name</h3></div>
+					<div class="status"></div>
+				</li>
+				<li class ="online_li">
+					<div class = "online_img"><img src="style\images\profile_pic.png"></div>
+					<div><h3 class="name">Name</h3></div>
+					<div class="status"></div>
 				</li>
 			</ul>
 		</div>

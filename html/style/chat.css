@@ -1,0 +1,13 @@
+#user_chat{
+	width: 5%;
+	height: 50px;
+	float: right;
+	background-color:#22958b;
+}
+#user_chat img{
+	width: 80%;
+	height: 40px;
+	margin-left: 5px;
+    margin-top: 6px;
+
+}
