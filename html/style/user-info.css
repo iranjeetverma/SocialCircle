@@ -1,9 +1,9 @@
 #user_info{
 	width: 15%;
 	height: 650px; 
-	background-color: #fff;
-	border: 1px solid #4caf50;
-	padding-top:55px; 
+	background-color: #212121; 
+	padding-top:55px;
+	float: left; 
 }
 #user_profile_img{
 	width: 100%;
